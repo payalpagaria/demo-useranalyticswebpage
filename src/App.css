@@ -81,3 +81,44 @@ footer {
   padding: 30px;
   color: #777;
 }
+
+.page {
+  max-width: 700px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.page h2 {
+  margin-top: 0;
+}
+
+.page p {
+  color: #555;
+}
+
+.actions,
+.secondary-actions {
+  margin-top: 20px;
+  display: flex;
+  gap: 12px;
+}
+
+.secondary-actions {
+  margin-top: 30px;
+}
+
+.page button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #4f46e5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.page button:hover {
+  background: #4338ca;
+}
